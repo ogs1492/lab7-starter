@@ -133,7 +133,7 @@ class RecipeCard extends HTMLElement {
 		let article = shadow.querySelector('article')
 		article.innerHTML = `
 		<img src=${data.imgSrc}
-			alt=${data.imgAlt}>
+			alt="${data.imgAlt}">
 		<p class="title">
 			<a href=${data.titleLnk}>${data.titleTxt}</a>
 		</p>
